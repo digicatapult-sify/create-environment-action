@@ -34,7 +34,7 @@ outputs:
     description: The Cloudify environment's outputs and capabilties
 runs:
   using: docker
-  image: docker://chandar26/dc-cli:v1
+  image: docker://chandar26/dc-cli:v2
   entrypoint: cfyci
   args:
     - create-environment
