@@ -34,7 +34,7 @@ outputs:
     description: The Cloudify environment's outputs and capabilties
 runs:
   using: docker
-  image: docker://kashdc/digitalcatapult_orchestration_engine
+  image: docker://demodc1/digicatapult_orchestration_engine:v3
   entrypoint: cfyci
   args:
     - create-environment
